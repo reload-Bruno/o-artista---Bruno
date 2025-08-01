@@ -147,10 +147,14 @@ footer{
 
 #acesso{
 
-  display: flex;
-      align-items: center;
+  
+  
 
 }
+
+   
+  
+
 
 a.link-menu{
   padding: 16px;
@@ -179,28 +183,27 @@ a { text-decoration: none;
   align-items: center;
 }
 
-#acesso .l {
-    display: flex;
+#acesso.l {
+    text-align: center;
     background-color: #e49756;
     flex-direction: column;
     border-radius: 6px;
-    width: 100px;
-    height: 100px;
+    padding: 40px;
+    
 }
-#acesso .f {
-    display: flex;
-    background-color: #5b305a;
-    flex-direction: column;
-    border-radius: 6px;
+#acesso.f {
+  text-align: center;
+  padding: 40px;
+  border-radius: 6px;
 }
 
 
-#acesso .m {
-    display: flex;
-    justify-content: space-between;
+#acesso.m {
+    
+    text-align: center;
     flex-direction: column;
     border-radius: 6px;
-    height: 800px;
+    padding: 40px;
     margin:  0 auto;
 
 }
